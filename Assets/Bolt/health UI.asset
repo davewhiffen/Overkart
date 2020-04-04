@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: health UI
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"58be7089-4d90-4a55-80ec-d4c6dc4646ea","$version":"A","$type":"Bolt.Start","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"853bb9ef-dc40-49aa-b2be-5b61effacacd","$version":"A","$type":"Bolt.Update"},{"chainable":false,"member":{"name":"TextArea","parameterTypes":["UnityEngine.Rect","System.String"],"targetType":"UnityEngine.GUI","targetTypeName":"UnityEngine.GUI","$version":"A"},"defaultValues":{"%position":{"xMin":0.0,"yMin":0.0,"xMax":0.0,"yMax":0.0,"$type":"UnityEngine.Rect"},"%text":{"$content":"","$type":"System.String"}},"position":{"x":-29.0,"y":-141.0},"guid":"6a3cb6f1-322e-4f96-acb9-f4defabd21cb","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"type":"System.String","value":{"$content":"maxHealth","$type":"System.String"},"defaultValues":{},"position":{"x":-388.0,"y":-46.0},"guid":"bbf82e09-4edb-492e-b52a-2900bccab1a8","$version":"A","$type":"Bolt.Literal","$id":"16"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"bfce54aa-b4b1-41a6-837b-7daabcd6af73","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"%text","guid":"8600f634-8087-4b86-a843-a049ce75a64a","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
